@@ -1,9 +1,7 @@
 import styled from "styled-components"
 
 export const SectionHeadset = styled.section`
-    border: solid hotpink;
     background-color: #0f0f0f;
-
 
 `
 export const Content = styled.section`
@@ -12,7 +10,7 @@ export const Content = styled.section`
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    align-items: center;
 `
 export const HeadsetKraken = styled.img`
     width: 480px;

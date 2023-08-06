@@ -2,10 +2,8 @@ import styled from "styled-components"
 
 export const Header = styled.header`
     height: 10vh;
-    border: solid blue;
     max-width: 1440px;
     margin: 0 auto;
-
     display: flex;
     align-items: center;
     justify-content: space-between;

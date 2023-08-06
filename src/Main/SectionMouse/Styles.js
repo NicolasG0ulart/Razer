@@ -3,7 +3,6 @@ import styled from "styled-components"
 export const SectionMouse = styled.div`
     max-width: 1440px;
     height: 90vh;
-    border: solid red;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
