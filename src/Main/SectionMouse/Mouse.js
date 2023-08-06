@@ -15,7 +15,6 @@ export default function MouseSection(){
             <S.Texts>
                 <h1>RAZER MAMBA PRO</h1>
                 <p>Os primeiros mouses de controle total automatizados do mundo desenvolvidos em 2016, especiais para jogos.</p>
-                {/* <button>VER MAIS</button> */}
                 <ButtonComponent
                     textButton="VER MAIS"
                 />

@@ -1,13 +1,22 @@
 import styled from "styled-components"
 
-export const SectionMouse = styled.div`
+export const SectionHeadset = styled.section`
+    border: solid hotpink;
+    background-color: #0f0f0f;
+
+
+`
+export const Content = styled.section`
     max-width: 1440px;
-    height: 90vh;
-    border: solid red;
+    height: 100vh;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-top: 100px;
+`
+export const HeadsetKraken = styled.img`
+    width: 480px;
+    height: 520px;
 `
 export const Texts = styled.div`
     display: flex;
@@ -23,7 +32,4 @@ export const Texts = styled.div`
         color: #585858;
         width: 460px;
     }
-`
-export const MouseMamba = styled.img`
-    width: 600px;
 `
