@@ -1,12 +1,11 @@
 import styled from "styled-components"
 
 //Background
-import BgImageHeadset from "../../assets/bg-image-headset.png"
 import BgImageHoverProduct from "../../assets/bg-image.PNG"
 
 export const SectionHeadset = styled.section`
-    background-color: #0f0f0f;
-    background-image: url(${BgImageHeadset});
+    background-color: #161616;
+    box-shadow: inset 0 2px 5px black;
     height: 100vh;
 `
 export const SectionTwo = styled.section`
@@ -25,6 +24,8 @@ export const ContentHeadset = styled.section`
 export const HeadsetKraken = styled.img`
     width: 330px;
     height: 380px;
+    -webkit-filter: drop-shadow(10px 10px 10px #181818);
+    filter: drop-shadow(10px 10px 10px #181818);
 `
 export const Texts = styled.div`
     display: flex;

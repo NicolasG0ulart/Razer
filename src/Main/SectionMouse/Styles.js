@@ -25,4 +25,6 @@ export const Texts = styled.div`
 `
 export const MouseMamba = styled.img`
     width: 600px;
+    -webkit-filter: drop-shadow(10px 10px 10px #181818);
+    filter: drop-shadow(10px 10px 10px #181818);
 `

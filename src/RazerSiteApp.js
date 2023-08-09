@@ -8,6 +8,7 @@ import bgImage from "./assets/bg-image.PNG"
 //components
 import Header from "./Header/Header";
 import Main from "./Main/Main";
+import Footer from "./Footer/Footer"
 
 export default function Razer(){
 
@@ -35,6 +36,7 @@ const FirstSection = styled.section`
       <FirstSection>
         <Header/>
         <Main/>
+        <Footer/>
       </FirstSection>
     </>
   )
