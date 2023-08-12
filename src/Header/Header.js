@@ -10,14 +10,14 @@ export default function Header(){
         <S.Header>
             <img className="logo-razer" src={LogoRaze} alt="Logo da empresa Razer"/>
 
-            <ul>
+            {/* <ul>
                 <li>Início</li>
                 <li>Hardware</li>
                 <li>Software</li>
                 <li>Comunidade</li>
                 <li>Loja</li>
                 <li>Suporte</li>
-            </ul>
+            </ul> */}
         </S.Header>
     )
 }

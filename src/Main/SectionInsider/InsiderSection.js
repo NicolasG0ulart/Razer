@@ -32,9 +32,9 @@ export default function InsiderSection(){
                     </div>
                 </S.ContentInsider>
                 
-                    <Button
+                <Button
                         textButton="Entrar na comunidade"
-                    />
+                />
             </S.SecoundSectionInsider>
         </>
     )

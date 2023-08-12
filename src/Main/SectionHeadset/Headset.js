@@ -18,13 +18,13 @@ export default function HeadsetSection(){
             <S.SectionTwo>
                 <S.ContentHeadset>
                     <S.HeadsetKraken src={HeadsetRazer}/>
-                <S.Texts>
-                    <h1>RAZER KRAKEN PRO</h1>
-                    <p>Os primeiros mouses de controle total automatizados do mundo desenvolvidos em 2016, especiais para jogos.</p>
-                    <ButtonComponent
-                        textButton="VER MAIS"
-                    />
-                </S.Texts>
+                    <S.Texts>
+                        <h1>RAZER KRAKEN PRO</h1>
+                        <p>Os primeiros mouses de controle total automatizados do mundo desenvolvidos em 2016, especiais para jogos.</p>
+                        <ButtonComponent
+                            textButton="VER MAIS"
+                        />
+                    </S.Texts>
                 </S.ContentHeadset>
 
                 <S.ContentProducts>

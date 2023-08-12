@@ -7,6 +7,14 @@ export const SectionMouse = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media(max-width: 1500px){
+        padding-inline: 60px;
+    }
+    @media(max-width: 1024px){
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
 `
 export const Texts = styled.div`
     display: flex;
@@ -17,14 +25,30 @@ export const Texts = styled.div`
         width: 460px;
         line-height: 60px;
         letter-spacing: 5px;
+        @media(max-width: 1280px){
+            width: 300px;
+            font-size: 2rem;
+            line-height: 40px;
+            letter-spacing: 3px;
+        }
     }
     p{
         color: #585858;
         width: 460px;
+        @media(max-width: 1280px){
+            width: 300px;
+        }
+    }
+    @media(max-width: 1280px){
+        gap: 25px;
+    }
+    @media(max-width: 1024px){
+        margin-top: 60px;
     }
 `
 export const MouseMamba = styled.img`
     width: 600px;
-    -webkit-filter: drop-shadow(10px 10px 10px #181818);
-    filter: drop-shadow(10px 10px 10px #181818);
+    @media(max-width: 1280px){
+        width: 350px;
+    }
 `

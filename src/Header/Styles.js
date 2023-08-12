@@ -44,4 +44,7 @@ export const Header = styled.header`
 
         }
     }
+    @media(max-width: 1500px){
+        padding-inline: 60px;
+    }
 `

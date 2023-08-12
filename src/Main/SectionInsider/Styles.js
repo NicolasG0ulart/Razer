@@ -26,15 +26,28 @@ export const FirstSectionInsider = styled.section`
         color: #00ff01;
         width: 460px;
         font-weight: 600;
+        @media(max-width: 1280px){
+            width: 100%;
+        }
+    }
+    @media(max-width: 1500px){
+        padding-inline: 60px;
     }
 `
 export const SecoundSectionInsider = styled.section`
     background-color: #161616; 
-    height: 60vh;
+    padding-top: 120px;
+    padding-bottom: 120px;
     display: flex;
+    gap: 60px;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    @media(max-width: 870px){
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
 `
 export const ContentInsider = styled.div`
     display: flex;
@@ -42,6 +55,11 @@ export const ContentInsider = styled.div`
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    flex-wrap: wrap;
+    @media(max-width: 870px){
+        justify-content: center;
+        gap: 60px;
+    }
     div{
         width: 350px;
         h5{
@@ -54,5 +72,11 @@ export const ContentInsider = styled.div`
             color: #585858;
             font-weight: 400;
         }
+        @media(max-width: 1366px){
+            width: 250px;
+        }
+    }
+    @media(max-width: 1500px){
+        padding-inline: 60px;
     }
 `
