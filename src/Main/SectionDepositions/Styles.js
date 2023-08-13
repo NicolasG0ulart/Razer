@@ -6,7 +6,6 @@ export const SectionDeposition = styled.section`
     border-top: 1px solid #2e2e2e;
     width: 100%;
     padding-bottom: 60px;
-    border: solid red;
 `
 export const DivTitle = styled.div`
     background-image: url(${BgLogoRazer});

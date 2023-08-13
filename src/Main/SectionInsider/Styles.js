@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import BgImageInsider from "../../assets/bg-image-insider.png"
+import BgImageInsiderMobile from "../../assets/bg-image-insider-mobile.png"
 
 export const SectionInsider = styled.section`
     background-image: url(${BgImageInsider});
@@ -8,6 +9,9 @@ export const SectionInsider = styled.section`
     height: 40vh;
     display: flex;
     align-items: center;
+    @media(max-width: 425px){
+        background-image: url(${BgImageInsiderMobile});
+    }
 `
 export const FirstSectionInsider = styled.section`
     max-width: 1440px;
