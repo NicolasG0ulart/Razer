@@ -13,14 +13,23 @@ export const Header = styled.header`
         &:hover{
             cursor: pointer;
         }
+        @media(max-width: 425px){
+            width: 150px;
+        }
     }
+    @media(max-width: 1500px){
+        padding-inline: 60px;
+    }
+    @media(max-width: 425px){
+        
+    }
+`
+export const List = styled.ul`
+    display: flex;
+    gap: 30px;
+    list-style: none;
 
-    ul{
-        display: flex;
-        gap: 30px;
-        list-style: none;
-    }
-    ul li{
+    li{
         color: #585858;
         position: relative;
 
@@ -44,10 +53,8 @@ export const Header = styled.header`
 
         }
     }
-    @media(max-width: 1500px){
-        padding-inline: 60px;
-    }
-    @media(max-width: 425px){
-        justify-content: center;
-    }
+    
+    @media(max-width: 1024px){
+        display: none;
+      }
 `
