@@ -13,7 +13,7 @@
 * Styled-components
 
 ## Link do projeto online
-[https://login-screen-goulart.netlify.app](https://razer-goulart.netlify.app)
+[Link Razer](https://razer-goulart.netlify.app)
 
 
 
