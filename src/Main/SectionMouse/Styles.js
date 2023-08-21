@@ -51,4 +51,8 @@ export const MouseMamba = styled.img`
     @media(max-width: 1280px){
         width: 350px;
     }
+    @media(max-width: 350px){
+        width: 310px;
+    }
+    
 `

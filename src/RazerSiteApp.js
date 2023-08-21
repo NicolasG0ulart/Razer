@@ -27,6 +27,7 @@ const GlobalStyle = createGlobalStyle`
 
 const FirstSection = styled.section`
   background-image: url(${bgImage});
+  background-color: #161616;
   height: 100vh;
 `
 

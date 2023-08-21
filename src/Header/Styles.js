@@ -20,8 +20,8 @@ export const Header = styled.header`
     @media(max-width: 1500px){
         padding-inline: 60px;
     }
-    @media(max-width: 425px){
-        
+    @media(max-width: 768px){
+        padding-inline: 30px;
     }
 `
 export const List = styled.ul`
